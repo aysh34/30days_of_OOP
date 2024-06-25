@@ -1,0 +1,45 @@
+Credit:  AYESHA SALEEM
+Contact: www.linkedin.com/in/ayshsaleem-156b5a292
+
+Q1: Create a Rectangle class with attributes length and width. Add methods to calculate the area and perimeter of the rectangle. Instantiate the class and call these methods.
+
+Q2: Write a Python program to create a calculator class. Include methods for basic arithmetic operations.
+
+Q3: Write a Python program to create a Car class with attributes like brand, model, and year. Create an object of the Car class and display its attributes.
+
+Q4: Create a BankAccount class that allows you to deposit, withdraw, and check the balance.
+
+Q5: Create a class Student with attributes name, roll_number, and grades. Implement a method calculate_average that calculates the average grade of the student. Create an instance of Student and call the calculate_average method.
+
+Q6:  Create a class Employee with attributes name, employee_id, and salary. Write a constructor that initialise these attributes and a method give_raise that increases the salary by a given percentage. Create an instance of Employee and test the give_raise method.
+
+Q7:Add a static method compare_area(rect1, rect2) to the Rectangle class that compares the areas of two rectangles rect1 and rect2 and returns the larger one.
+
+Q8: You are developing a software system for managing tasks in a project management application. Each task has a status associated with it, such as "To Do", "In Progress", or "Done". Design a decorator status_logger that logs a message whenever the status of a task changes. Assume you have a Task class.
+
+Q9: You are tasked with developing a software system for managing books in a library. Each book can be checked out by users if it is available. Implement a decorator check_availability that restricts access to the checkout method of the Book class based on the availability of the book.
+
+Q10:Define a class Temperature with a private attribute _celsius.
+Implement getter and setter methods for _celsius using the property decorator.
+Implement properties Fahrenheit and kelvin to get and set the temperature in Fahrenheit and Kelvin respectively. Ensure that updating Fahrenheit or kelvin also updates _celsius.
+
+Q11:  Create a class MathOperations with a class method to calculate the factorial of a number and a static method to check if a number is prime. Demonstrate the difference between class methods and static methods in this context.
+
+Q12: Create a class BankAccount with methods for deposit, withdrawal, and displaying balance.Create a subclass SavingsAccount that inherits from BankAccount. Override the deposit() method in SavingsAccount to add an interest bonus on deposit. Create objects of both BankAccount and SavingsAccount and test their functionalities.
+
+Q13:An e-commerce platform requires a product categorisation system:
+1. Product: The base class with attributes like name and price.
+2. Electronics: Inherits from Product, adding warranty period and brand.
+3. Smartphone: Inherits from Electronics, adding operating system and camera quality. Define the three classes with appropriate attributes and methods. Implement a method in each class to display product details. Create a Smartphone object and demonstrate the use of methods from all three classes.
+
+Q14:Create base classes Athlete and Musician with appropriate attributes and methods related to their respective domains (e.g., name, sport for Athlete, name, instrument for Musician, methods like train() for Athlete and perform() for Musician). Create a derived class Performer that inherits from both Athlete and Musician using multiple inheritance.
+
+Q15: You are tasked with designing a plugin system in Python. Plugins can have various functionalities such as data processing or networking capabilities. How would you utilise multiple inheritance to create a flexible plugin architecture where plugins can inherit from multiple base classes to combine functionalities seamlessly?
+ 
+Q16: Define three classes A, B, and C. B and C should both inherit from A. Add a method identify in A that prints "I am A". Override identify in B to print "I am B" and in C to print "I am C". Define a class D that inherits from both B and C.Instantiate a D object and call the identify method.Use super() to ensure that the identify method in class A is called from within D's identify method.
+
+Q17: Define the classes Media, Audio, Video, and AudioVideo according to the specifications.Ensure that the AudioVideo class properly resolves the diamond problem by using super(). Create an instance of AudioVideo. Call the play, stop, adjust_volume, adjust_brightness, and display_info methods on the instance.
+
+Q18: write a program that counts the number of objects created of a particular class.
+
+Q19: Create a class Student with a class variable school_name set to "ABC School". Add instance variables name and age. Change the class variable and instance variables and observe the effects on different instances.

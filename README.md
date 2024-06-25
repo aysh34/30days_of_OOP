@@ -1,1 +1,1 @@
-# This repository contains the practice questions of OOP
+"This repository contains a collection of practice questions and exercises on Object-Oriented Programming (OOP). It is designed to help learners understand and apply OOP concepts effectively."
