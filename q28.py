@@ -1,9 +1,6 @@
 # Describe a scenario where implementing the __call__ method would be useful for a class Multiplier that multiplies a given number by a predefined factor.
 
 
-from typing import Any
-
-
 class Multiplier:
     def __init__(self, factor):
         self.factor = factor
