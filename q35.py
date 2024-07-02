@@ -25,7 +25,7 @@ class Employee:
     def display_info(self):
         # Accessing protected and private attributes via public methods
         encrypted_id = self.__encrypt_employee_id()  # Accessing private method
-        return f"Name: {self._name}, Salary: {self._salary}, Encrypted ID: ###{encrypted_id}###"
+        return f"Name: {self._name}\nAge: {self.age}\nSalary: {self._salary}\nEncrypted ID: ###{encrypted_id}###"
 
 
 # Creating an instance of Employee
@@ -34,4 +34,4 @@ emp1.set_salary(55000)
 print(emp1.display_info())
 
 # print(emp1._salary)       # valid but against encapsulation principles
-# print(emp1._Employee__employee_id) # accessing through name mangling but discourged
+# print(emp1._Employee__employee_id) # accessing through name mangling but discouraged
