@@ -1,4 +1,6 @@
-# Define an abstract class GeometricShape with the following abstract methods: area, perimeter. Create concrete classe RightTriangle,that inherit from GeometricShape and implement the abstract methods.
+# Define an abstract class GeometricShape with the following abstract methods: area,
+# perimeter. Create concrete classe RightTriangle,that inherit from GeometricShape and
+# implement the abstract methods.
 
 from abc import ABC, abstractmethod
 

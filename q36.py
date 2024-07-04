@@ -1,6 +1,7 @@
 # Payment System:
 # Define an abstract class PaymentMethod with the following abstract methods: pay and refund
-# Create concrete classes CreditCard, PayPal that inherit from PaymentMethod and implement the abstract methods.
+# Create concrete classes CreditCard, PayPal that inherit from PaymentMethod and implement
+# the abstract methods.
 
 from abc import ABC, abstractmethod
 
