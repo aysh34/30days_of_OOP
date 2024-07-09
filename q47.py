@@ -16,7 +16,8 @@ def identify_file_type(file_name: str) -> str:
             return "Unknown File"
 
 
-print(identify_file_type("main.py"))
-print(identify_file_type("main.txt"))
-print(identify_file_type("main.png"))
-print(identify_file_type("main.csv"))
+if __name__ == "__main__":
+    print(identify_file_type("main.py"))
+    print(identify_file_type("main.txt"))
+    print(identify_file_type("main.png"))
+    print(identify_file_type("main.csv"))

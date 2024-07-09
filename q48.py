@@ -15,6 +15,7 @@ def check_password_strength(password: str) -> str:
         case length if length > 10:
             return "Strong"
 
+
 print(check_password_strength("125879"))
 print(check_password_strength("129"))
 print(check_password_strength("12***Ayd9870"))
