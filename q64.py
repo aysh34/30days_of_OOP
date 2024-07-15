@@ -6,8 +6,6 @@ def power(num, exp) -> int:
         return 1
     else:
         return num * power(num, exp - 1)
-
-
 print(power(3, 3))
 
 
@@ -17,6 +15,4 @@ def greatest_common_divisor(n1, n2):
         return n1  # the GCD of any number and 0 is the number itself.
     else:
         return greatest_common_divisor(n2, n1 % n2)
-
-
 print(greatest_common_divisor(48, 18))
