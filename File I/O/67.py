@@ -1,4 +1,11 @@
-marks = input("Enter your marks: ")
-with open("Highscore.txt") as f:
-    hiScore = f.read()
-print(hiScore)
+def game():
+    score = int(input("Enter your score: "))
+    return score
+
+
+with open("Hi-score.txt") as f:
+    highscore = int(f.read())
+
+if game() > highscore:
+    with open("Hi-score.txt", "w") as f:
+        f.write(game())
