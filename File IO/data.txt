@@ -1,0 +1,5 @@
+Artificial Intelligence (AI) is a rapidly growing field in computer science that focuses on creating intelligent machines capable of performing tasks that typically require human intelligence. AI encompasses various subfields, including machine learning, natural language processing, computer vision, and robotics.
+
+Machine learning is a key component of AI, where algorithms are designed to learn from and make predictions or decisions based on data. This enables machines to recognize patterns, make recommendations, and improve their performance over time.
+
+Natural language processing (NLP) involves teaching machines to understand and interpret human language. NLP techniques are used in applications like chatbots, virtual assistants, and language translation systems.
