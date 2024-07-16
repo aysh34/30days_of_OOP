@@ -1,2 +1,0 @@
-Hello, world! This is a sample text file.
-I am excited to learn Programming.
